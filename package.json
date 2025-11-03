@@ -40,13 +40,13 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/searchone/monorepo.git",
+        "url": "https://github.com/searchone-ai/nestjs-autumn.git",
         "directory": "packages/nestjs-autumn"
     },
     "bugs": {
-        "url": "https://github.com/searchone/monorepo/issues"
+        "url": "https://github.com/searchone-ai/nestjs-autumn/issues"
     },
-    "homepage": "https://github.com/searchone/monorepo/tree/master/packages/nestjs-autumn#readme",
+    "homepage": "https://github.com/searchone-ai/nestjs-autumn#readme",
     "engines": {
         "node": ">=18.0.0"
     },
