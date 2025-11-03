@@ -1,4 +1,11 @@
+<img width="200" height="200" alt="Gemini_Generated_Image_b5j89fb5j89fb5j8-removebg-preview" src="https://github.com/user-attachments/assets/0a5f4dd0-1a58-4fd3-9419-b7d5e4567668" />
+
 # @searchone/nestjs-autumn
+[![npm version](https://img.shields.io/npm/v/@searchone/nestjs-autumn.svg?style=flat-square)](https://www.npmjs.com/package/@searchone/nestjs-autumn)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg?style=flat-square)](https://nodejs.org/)
+[![NestJS](https://img.shields.io/badge/NestJS-v11.0-red.svg?style=flat-square)](https://nestjs.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg?style=flat-square)](https://www.typescriptlang.org/)
 
 NestJS package for integrating autumn-js analytics middleware with multiple authentication providers.
 
