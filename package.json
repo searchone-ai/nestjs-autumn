@@ -1,0 +1,68 @@
+{
+    "name": "@searchone/nestjs-autumn",
+    "version": "1.0.0",
+    "description": "NestJS middleware for integrating autumn-js billing with automatic authentication provider detection (WorkOS, Clerk, BetterAuth, and custom providers)",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "default": "./dist/index.js"
+        }
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "clean": "rm -rf dist",
+        "type-check": "tsc --noEmit",
+        "prepublishOnly": "npm run clean && npm run build"
+    },
+    "keywords": [
+        "nestjs",
+        "autumn",
+        "autumn-js",
+        "billing",
+        "middleware",
+        "authentication",
+        "workos",
+        "clerk",
+        "betterauth",
+        "auth",
+        "user-billing",
+        "session-billing"
+    ],
+    "author": "SearchOne",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/searchone/monorepo.git",
+        "directory": "packages/nestjs-autumn"
+    },
+    "bugs": {
+        "url": "https://github.com/searchone/monorepo/issues"
+    },
+    "homepage": "https://github.com/searchone/monorepo/tree/master/packages/nestjs-autumn#readme",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@nestjs/common": "^11.0.1",
+        "autumn-js": "^0.1.43"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.10.7",
+        "typescript": "^5.7.3"
+    },
+    "peerDependencies": {
+        "express": "^4.18.0"
+    }
+}
