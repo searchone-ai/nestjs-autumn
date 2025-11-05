@@ -16,11 +16,11 @@
         "LICENSE"
     ],
     "scripts": {
-        "build": "tsc",
-        "dev": "tsc --watch",
+        "build": "bunx tsc",
+        "dev": "bunx tsc --watch",
         "clean": "rm -rf dist",
-        "type-check": "tsc --noEmit",
-        "prepublishOnly": "npm run clean && npm run build"
+        "type-check": "bunx tsc --noEmit",
+        "prepublishOnly": "bun run clean && bun run build"
     },
     "keywords": [
         "nestjs",
