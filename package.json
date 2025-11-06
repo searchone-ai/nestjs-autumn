@@ -16,10 +16,10 @@
         "LICENSE"
     ],
     "scripts": {
-        "build": "bunx tsc",
-        "dev": "bunx tsc --watch",
+        "build": "tsc",
+        "dev": "tsc --watch",
         "clean": "rm -rf dist",
-        "type-check": "bunx tsc --noEmit",
+        "type-check": "tsc --noEmit",
         "prepublishOnly": "bun run clean && bun run build"
     },
     "keywords": [
