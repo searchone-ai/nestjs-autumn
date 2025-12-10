@@ -55,7 +55,7 @@
     },
     "dependencies": {
         "@nestjs/common": "^11.0.1",
-        "autumn-js": "^0.1.43"
+        "autumn-js": "npm:@searchone/autumn-js@0.1.52"
     },
     "devDependencies": {
         "@types/express": "^5.0.0",
